@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <header className='header'>
         <div className='logo'>
-        <Link to="/">Are Jobs</Link>
+        <Link to="/">Our Jobs</Link>
         </div>
         <ul>
             <li>
