@@ -5,9 +5,12 @@ const dotenv = require('dotenv').config()//allows to use dotenv
 const {errorHandler} = require('./middleware/errorMiddleware')
 const app = express() 
 const port = process.env.PORT || 5000 
+const cors = require("cors")
 
 connectDB()
 
+
+app.use(cors());
 const bodyParser = require('body-parser'); 
 app.use(bodyParser.json());
 app.use(express.urlencoded({extended: false}))
