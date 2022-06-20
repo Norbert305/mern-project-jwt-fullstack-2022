@@ -3,7 +3,8 @@ import {useNavigate} from "react-router-dom"
 import {useSelector, useDispatch} from "react-redux"
 import JobForm from '../components/JobForm'
 import Spinner from '../components/Spinner'
-import { getJobs, reset } from '../features/jobs/jobSlice'
+import { getJobs } from '../features/jobs/jobSlice'
+import { reset } from '../features/auth/authSlice'
 import JobItem from '../components/JobItem'
 
 
