@@ -20,7 +20,7 @@ open backend:
 
 <hr/>
 
-<h3Register</h3>
+<h3>Register</h3>
 
 ![image](https://user-images.githubusercontent.com/83515541/175126260-f4c6d839-1188-41c5-b569-8893c1c6718e.png)
 
