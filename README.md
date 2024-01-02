@@ -1,6 +1,6 @@
 # mern-project-jwt-fullstack
 
-commands in terminal:
+commands in terminal (don't forget npm install ✅):
 
 open frontend: 
 <p>cd client</p> 
@@ -12,6 +12,11 @@ open backend:
 <p>cd server</p> 
 <p>npm run server</p>
 
+<p><strong>.env file set-up</strong></p>
+<p>PORT=5000</p>
+<p>NODE_ENV = development</p>
+<p>DB_CONNECTION=mongodb+srv://password-goes-here@job-tracker-cluster.xozt1fx.mongodb.net/</p>
+<p>JWT_SECRET = abc123</p>
 <hr/>
 
 <h3>Login</h3>
